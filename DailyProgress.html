@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Progress | MyConception</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="relative overflow-x-hidden overflow-y-auto bg-gradient-to-br from-sky-100 via-sky-50 to-white text-gray-800 min-h-screen">
+
+  <!-- Light Blobs -->
+  <div class="absolute top-[-200px] left-[-200px] w-[500px] h-[500px] bg-sky-200 opacity-30 blur-[150px] rounded-full -z-10"></div>
+  <div class="absolute bottom-[-200px] right-[-200px] w-[500px] h-[500px] bg-sky-100 opacity-30 blur-[150px] rounded-full -z-10"></div>
+
+  <!-- Navigation -->
+  <header class="shadow p-4 sticky top-0 backdrop-blur bg-white/80 z-20">
+    <nav class="flex justify-between items-center max-w-5xl mx-auto">
+      <h1 class="text-xl font-bold text-blue-600">MyConception</h1>
+      <ul class="flex gap-6">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="progress.html">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- === Progress Section === -->
+  <section class="relative py-32 max-w-5xl mx-auto px-6 md:px-12 text-center">
+    <h2 class="text-5xl font-extrabold text-blue-700 mb-6">Daily Progress</h2>
+    <p class="text-lg text-gray-700 mb-12 max-w-2xl mx-auto">
+      This page summarizes my daily commitment to mastering cloud security and problem-solving — from studying real-world security incidents to solving LeetCode challenges and doing continuous on-the-job training.
+    </p>
+
+    <!-- Counters -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+      <!-- Security Incidents -->
+      <div class="p-6 bg-white/70 rounded-xl shadow-lg">
+        <h3 class="text-4xl font-bold text-blue-600 mb-2">412+</h3>
+        <p class="text-lg text-gray-700">Security Incidents Studied</p>
+      </div>
+
+      <!-- LeetCode Problems -->
+      <div class="p-6 bg-white/70 rounded-xl shadow-lg">
+        <h3 class="text-4xl font-bold text-blue-600 mb-2">275+</h3>
+        <p class="text-lg text-gray-700">LeetCode Problems Solved</p>
+      </div>
+
+      <!-- On-The-Job Training -->
+      <div class="p-6 bg-white/70 rounded-xl shadow-lg">
+        <h3 class="text-4xl font-bold text-blue-600 mb-2">850+ hrs</h3>
+        <p class="text-lg text-gray-700">On-The-Job Training</p>
+      </div>
+    </div>
+
+    <!-- Google Sheets Link -->
+    <p class="text-lg text-gray-700 mb-6">
+      For detailed logs and daily tracking, check out my full progress sheet:
+    </p>
+    <a href="https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID_HERE" target="_blank" class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-700 transition">
+      View My Progress Tracker
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="shadow p-4 text-center bg-white/80">
+    <p class="text-gray-600">&copy; 2025 MyConception. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
